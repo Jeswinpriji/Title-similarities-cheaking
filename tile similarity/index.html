@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title Validation - Broke Pioneers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo"><input type="image" src="C:\Users\joelt\OneDrive\Pictures\Screenshots\Screenshot 2024-09-11 090941.png" width="50" height="40"><a href="#" id="BrokePioneers">Broke Pioneers</a></h1>
+            <ul>
+                <li><a href="#" id="Home">Home</a></li>
+                <li><a href="#" id="About">About</a></li>
+                <li><a href="#" id="Services">Services</a></li>
+                <li><a href="#" id="Contacts">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h3><input type="image" src="C:\Users\joelt\OneDrive\Pictures\Screenshots\Kopia.png" width="500" height="200" alt=""></h3>
+            <form id="titleForm">
+                <label for="titleInput">Enter a Title:</label>
+                <input type="text" id="titleInput" name="titleInput" size="20" placeholder="Title" required>
+                <button id="submit" type="submit">Validate Title</button>
+            </form>
+            <div id="result"></div>
+            <div class="progress-container" style="display:none;">
+                <div id="progress-circle" class="progress-circle">
+                    <div id="progress-value" class="progress-value">0%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.getElementById('BrokePioneers').addEventListener('click', function() {
+            event.preventDefault();
+            window.location.href = 'index.html'; 
+        });
+    </script>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p> We leverage cutting-edge phonetic algorithms, semantic analysis, and robust indexing techniques to ensure each title adheres to our strict guidelines. This includes rejecting titles that are too similar to existing ones, contain disallowed words, or violate specific rules.By offering clear feedback and allowing for resubmissions, we support a user-friendly experience while maintaining the integrity of our title database. 
+
+
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-box">
+                <h3>Title Validation</h3>
+                <p>We offer top-notch title validation services to ensure your titles are unique and appropriate.</p>
+            </div>
+            <div class="service-box">
+                <h3>Similarity Checking</h3>
+                <p>Our advanced algorithms check for similarity with existing titles to prevent duplicates.</p>
+            </div>
+            <div class="service-box">
+                <h3>Content Blacklisting</h3>
+                <p>We maintain a comprehensive blacklist to ensure your titles are safe and appropriate.</p>
+            </div>
+        </div>
+    </section>
+    <section class="Contacts">
+        <div class="container">
+            <h2>Contacts</h2>
+            <p>Team Leader:Jeswin Cherian Priji Ph:xxxxxxxxxx</p>
+            <p> Supervisor:Ejo Benny Ph:xxxxxxxxxx</p>
+            <p>  Lead Developer:Rohan Jinu Varghese Ph:xxxxxxxxxx</p>
+            <p>  Email:brokepioneers@gmail.com</p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Broke Pioneers. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

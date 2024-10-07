@@ -1,0 +1,129 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman';
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    background-color: #ffffff;
+    color: #7057ec;
+    padding: 15px 0;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    color: #23004b;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #12004b;
+    text-decoration: none;
+}
+.hero {
+    background: #e0d6ef;
+    padding: 60px 0;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+.hero input[type="text"] {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.hero button {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #23004b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero label {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:#180091;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    
+}
+.hero #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.about {
+    background-color: #f7f7f5; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+.services {
+    padding: 40px 0;
+    font-family: 'Times New Roman';
+}
+.services {
+    background-color: #e0d6ef;
+}
+.service-box {
+    text-align: center;
+    margin: 20px 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.progress-container {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+.progress-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#4caf50 0deg, #ddd 0deg);
+}
+.progress-value {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
